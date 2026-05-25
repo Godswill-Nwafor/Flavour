@@ -7,21 +7,6 @@ Key system components
 - Backend: Express API server (JSON file as a simple datastore) providing REST endpoints for products, cart, contact, and authentication (JWT).
 - Persistence: `server/db.json` stores seeded products and runtime data (users, contacts, carts) for local development.
 
-Primary capabilities
-- Serve product listings and single-product details via API.
-- Client-side cart with local persistence and server-side cart storage endpoint.
-- Contact form submission endpoint that records messages.
-- User registration and login endpoints returning JWT tokens; protected routes can be enforced using the token.
-
-Available API endpoints (server)
-- `GET /api/products` — list all products
-- `GET /api/products/:id` — get product by id
-- `POST /api/cart` — save or update a cart (body: `{ sessionId, items }`)
-- `GET /api/cart/:sessionId` — load cart by session id
-- `POST /api/contact` — submit contact message
-- `POST /api/auth/register` — register a user (returns token)
-- `POST /api/auth/login` — login (returns token)
-
 How to run locally
 1. Install frontend deps (project root):
 ```bash

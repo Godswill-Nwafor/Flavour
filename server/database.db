@@ -1,0 +1,17 @@
+{
+  "products": [],
+  "users": [
+    {
+      "id": 1779722402834,
+      "email": "test+1779722402697@example.com",
+      "password": "$2a$08$LpJnS5j29rWyFsdWLAgMAOXco3wPEMuVE6q/b8xF74fR36jiID42m"
+    },
+    {
+      "id": 1779722422517,
+      "email": "test+1779722422450@example.com",
+      "password": "$2a$08$8F8vg.a5d/MtBu5W1QgYiOun5yljP2eqJftAo6Cz3HWIRmGOcM4uC"
+    }
+  ],
+  "contacts": [],
+  "carts": []
+}
